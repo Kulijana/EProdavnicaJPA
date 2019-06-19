@@ -10,9 +10,8 @@ import java.util.List;
  * 
  */
 @Entity
-@Table(name="ADJUloga")
-@NamedQuery(name="Uloga.findAll", query="SELECT u FROM Uloga u")
-public class Uloga implements Serializable {
+@NamedQuery(name="ADJUloga.findAll", query="SELECT a FROM ADJUloga a")
+public class ADJUloga implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -21,7 +20,7 @@ public class Uloga implements Serializable {
 
 	private String ime;
 
-	//bi-directional many-to-many association to Korisnik
+	//bi-directional many-to-many association to ADJKorisnik
 	@ManyToMany
 	@JoinTable(
 		name="ADJKorisnikUloga"
@@ -32,9 +31,9 @@ public class Uloga implements Serializable {
 			@JoinColumn(name="ADJKorisnik_idKorisnik")
 			}
 		)
-	private List<Korisnik> korisniks;
+	private List<ADJKorisnik> adjkorisniks;
 
-	public Uloga() {
+	public ADJUloga() {
 	}
 
 	public int getIdUloga() {
@@ -53,12 +52,12 @@ public class Uloga implements Serializable {
 		this.ime = ime;
 	}
 
-	public List<Korisnik> getKorisniks() {
-		return this.korisniks;
+	public List<ADJKorisnik> getAdjkorisniks() {
+		return this.adjkorisniks;
 	}
 
-	public void setKorisniks(List<Korisnik> korisniks) {
-		this.korisniks = korisniks;
+	public void setAdjkorisniks(List<ADJKorisnik> adjkorisniks) {
+		this.adjkorisniks = adjkorisniks;
 	}
 
 }

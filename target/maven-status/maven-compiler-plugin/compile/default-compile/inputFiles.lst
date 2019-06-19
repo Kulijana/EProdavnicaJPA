@@ -1,6 +1,6 @@
-/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/Uloga.java
-/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/Korisnik.java
-/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/Transakcija.java
-/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/Proizvodjac.java
-/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/Izlog.java
-/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/Proizvod.java
+/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/ADJProizvodjac.java
+/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/ADJProizvod.java
+/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/ADJKorisnik.java
+/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/ADJUloga.java
+/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/ADJIzlog.java
+/home/kulijana/IdeaProjects/IS2/FinalniProjekat/EProdavnicaJPA/src/model/ADJTransakcija.java

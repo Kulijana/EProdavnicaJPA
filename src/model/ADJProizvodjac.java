@@ -10,9 +10,8 @@ import java.util.List;
  * 
  */
 @Entity
-@Table(name="ADJProizvodjac")
-@NamedQuery(name="Proizvodjac.findAll", query="SELECT p FROM Proizvodjac p")
-public class Proizvodjac implements Serializable {
+@NamedQuery(name="ADJProizvodjac.findAll", query="SELECT a FROM ADJProizvodjac a")
+public class ADJProizvodjac implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -23,11 +22,11 @@ public class Proizvodjac implements Serializable {
 
 	private String ime;
 
-	//bi-directional many-to-one association to Proizvod
+	//bi-directional many-to-one association to ADJProizvod
 	@OneToMany(mappedBy="adjproizvodjac")
-	private List<Proizvod> proizvods;
+	private List<ADJProizvod> adjproizvods;
 
-	public Proizvodjac() {
+	public ADJProizvodjac() {
 	}
 
 	public int getIdProizvodjac() {
@@ -54,24 +53,24 @@ public class Proizvodjac implements Serializable {
 		this.ime = ime;
 	}
 
-	public List<Proizvod> getProizvods() {
-		return this.proizvods;
+	public List<ADJProizvod> getAdjproizvods() {
+		return this.adjproizvods;
 	}
 
-	public void setProizvods(List<Proizvod> proizvods) {
-		this.proizvods = proizvods;
+	public void setAdjproizvods(List<ADJProizvod> adjproizvods) {
+		this.adjproizvods = adjproizvods;
 	}
 
-	public Proizvod addAdjproizvod(Proizvod adjproizvod) {
-		getProizvods().add(adjproizvod);
-		adjproizvod.setProizvodjac(this);
+	public ADJProizvod addAdjproizvod(ADJProizvod adjproizvod) {
+		getAdjproizvods().add(adjproizvod);
+		adjproizvod.setAdjproizvodjac(this);
 
 		return adjproizvod;
 	}
 
-	public Proizvod removeAdjproizvod(Proizvod adjproizvod) {
-		getProizvods().remove(adjproizvod);
-		adjproizvod.setProizvodjac(null);
+	public ADJProizvod removeAdjproizvod(ADJProizvod adjproizvod) {
+		getAdjproizvods().remove(adjproizvod);
+		adjproizvod.setAdjproizvodjac(null);
 
 		return adjproizvod;
 	}

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="EProdavnicaJPA">
-		<class>model.Izlog</class>
-		<class>model.Korisnik</class>
-		<class>model.Proizvod</class>
-		<class>model.Proizvodjac</class>
-		<class>model.Transakcija</class>
-		<class>model.Uloga</class>
+		<class>model.ADJIzlog</class>
+		<class>model.ADJKorisnik</class>
+		<class>model.ADJProizvod</class>
+		<class>model.ADJProizvodjac</class>
+		<class>model.ADJTransakcija</class>
+		<class>model.ADJUloga</class>
 	</persistence-unit>
 </persistence>
