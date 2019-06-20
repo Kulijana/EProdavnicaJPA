@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe93805a-68b4-4553-8764-b7075a5ba38e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dbGenerators/dbGenerator.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dbGenerators/script.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/664e0bea-d03b-4114-a100-0aaac7908927.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/664e0bea-d03b-4114-a100-0aaac7908927.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jpt.entitygen.new-mysql.is2" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/org.eclipse.jpt.entitygen.new-mysql.is2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Izlog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Korisnik.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Proizvod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Proizvodjac.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Transakcija.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Uloga.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EProdavnicaJPA-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/EProdavnicaJPA-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/EProdavnicaJPA/EProdavnicaJPA/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/EProdavnicaJPA/EProdavnicaJPA/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/EProdavnicaJPA/EProdavnicaJPA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/EProdavnicaJPA/EProdavnicaJPA/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Izlog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Korisnik.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Proizvod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Proizvodjac.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Transakcija.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Uloga.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,13 +41,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="is2: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="is2@nastava.is.pmf.uns.ac.rs" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="is2: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="ADJProizvod: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -74,8 +49,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/664e0bea-d03b-4114-a100-0aaac7908927/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="405">
+              <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbGenerators/dbGenerator.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="662">
+              <caret line="101" column="45" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dbGenerators/script.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="72" column="45" lean-forward="true" selection-end-line="2581" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/664e0bea-d03b-4114-a100-0aaac7908927/console_1.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1532">
+              <caret line="2369" column="31" lean-forward="true" selection-start-line="2369" selection-start-column="31" selection-end-line="2369" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -90,36 +92,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/ADJIzlog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/ADJProizvod.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/ADJProizvodjac.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/ADJTransakcija.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="300">
               <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
             </state>
           </provider>
@@ -134,16 +109,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://664e0bea-d03b-4114-a100-0aaac7908927/schema/is2/table/ADJUloga">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Role</find>
+      <find>TTFUSER</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -159,6 +131,8 @@
         <option value="$PROJECT_DIR$/src/model/Transakcija.java" />
         <option value="$PROJECT_DIR$/src/model/Uloga.java" />
         <option value="$PROJECT_DIR$/src/model/ADJTransakcija.java" />
+        <option value="$PROJECT_DIR$/src/dbGenerators/dbGenerator.txt" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/664e0bea-d03b-4114-a100-0aaac7908927/console_1.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/664e0bea-d03b-4114-a100-0aaac7908927/console.sql" />
       </list>
     </option>
@@ -191,7 +165,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,22 +182,22 @@
               <item name="EProdavnicaJPA" type="b2602c69:ProjectViewProjectNode" />
               <item name="EProdavnicaJPA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dbGenerators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560870999692" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561027052462" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/dbGenerators" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -254,25 +228,30 @@
       <workItem from="1560888430986" duration="3965000" />
       <workItem from="1560931477186" duration="5909000" />
       <workItem from="1560949628598" duration="5307000" />
+      <workItem from="1560974761583" duration="2152000" />
+      <workItem from="1561011729711" duration="592000" />
+      <workItem from="1561025035463" duration="2017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19968000" />
+    <option name="totallyTimeSpent" value="24729000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24866596" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25667024" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="SQL Generator" weight="0.32944915" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32944915" />
       <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32980973" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32944915" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info active="true" anchor="bottom" id="Database Console" order="4" visible="true" weight="0.32944915" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
@@ -332,6 +311,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ADJIzlog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/ADJProizvod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -343,6 +329,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ADJTransakcija.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -360,17 +353,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ADJIzlog.java">
+    <entry file="das://664e0bea-d03b-4114-a100-0aaac7908927/schema/is2/table/DarkoArnautKorisnik.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ADJTransakcija.java">
+    <entry file="das://664e0bea-d03b-4114-a100-0aaac7908927/schema/is2/table/DarkoArnautKarta.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://664e0bea-d03b-4114-a100-0aaac7908927/schema/is2/table/DarkoArnautLet.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://664e0bea-d03b-4114-a100-0aaac7908927/schema/is2/table/DarkoArnautGrad.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://664e0bea-d03b-4114-a100-0aaac7908927/schema/is2/table/DarkoArnautAerodrom.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://664e0bea-d03b-4114-a100-0aaac7908927/schema/is2/table/DarkoArnautUloga.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://664e0bea-d03b-4114-a100-0aaac7908927/schema/is2/table/Zanr">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbGenerators/dbGenerator.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="662">
+          <caret line="101" column="45" selection-start-line="101" selection-start-column="45" selection-end-line="101" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbGenerators/script.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="72" column="45" lean-forward="true" selection-end-line="2581" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/664e0bea-d03b-4114-a100-0aaac7908927/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1532">
+          <caret line="2369" column="31" lean-forward="true" selection-start-line="2369" selection-start-column="31" selection-end-line="2369" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -383,8 +432,8 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/664e0bea-d03b-4114-a100-0aaac7908927/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        <state relative-caret-position="405">
+          <caret line="27" column="80" selection-start-line="27" selection-start-column="80" selection-end-line="27" selection-end-column="80" />
         </state>
       </provider>
     </entry>

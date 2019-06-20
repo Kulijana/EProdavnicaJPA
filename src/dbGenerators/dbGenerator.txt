@@ -1,0 +1,112 @@
+create table ADJIzlog
+(
+  idIzlog                int auto_increment
+    primary key,
+  naziv                  varchar(50) null,
+  ADJKorisnik_idKorisnik int         not null,
+  constraint fk_ADJIzlog_ADJKorisinik1
+    foreign key (ADJKorisnik_idKorisnik) references ADJKorisnik (idKorisnik)
+);
+
+create index fk_ADJIzlog_ADJKorisinik1_idx
+  on ADJIzlog (ADJKorisnik_idKorisnik);
+
+
+
+create table ADJKorisnik
+(
+  idKorisnik   int auto_increment
+    primary key,
+  imePrezime   varchar(45)  not null,
+  brojTelefona varchar(45)  not null,
+  username     varchar(45)  not null,
+  password     varchar(200) not null,
+  stanjeRacuna double       null
+);
+
+
+
+create table ADJKorisnikUloga
+(
+  ADJKorisnik_idKorisnik int not null,
+  ADJUloga_idUloga       int not null,
+  primary key (ADJKorisnik_idKorisnik, ADJUloga_idUloga),
+  constraint fk_ADJKorisinik_has_ADJUloga_ADJKorisinik1
+    foreign key (ADJKorisnik_idKorisnik) references ADJKorisnik (idKorisnik),
+  constraint fk_ADJKorisinik_has_ADJUloga_ADJUloga1
+    foreign key (ADJUloga_idUloga) references ADJUloga (idUloga)
+);
+
+create index fk_ADJKorisinik_has_ADJUloga_ADJKorisinik1_idx
+  on ADJKorisnikUloga (ADJKorisnik_idKorisnik);
+
+create index fk_ADJKorisinik_has_ADJUloga_ADJUloga1_idx
+  on ADJKorisnikUloga (ADJUloga_idUloga);
+
+
+
+create table ADJProizvod
+(
+  idProizvod                   int auto_increment
+    primary key,
+  naziv                        varchar(45) not null,
+  cena                         double      not null,
+  ADJProizvodjac_idProizvodjac int         not null,
+  ADJIzlog_idIzlog             int         null,
+  constraint fk_ADJProizvod_ADJIzlog1
+    foreign key (ADJIzlog_idIzlog) references ADJIzlog (idIzlog),
+  constraint fk_ADJProizvod_ADJProizvodjac1
+    foreign key (ADJProizvodjac_idProizvodjac) references ADJProizvodjac (idProizvodjac)
+);
+
+create index fk_ADJProizvod_ADJIzlog1_idx
+  on ADJProizvod (ADJIzlog_idIzlog);
+
+create index fk_ADJProizvod_ADJProizvodjac1_idx
+  on ADJProizvod (ADJProizvodjac_idProizvodjac);
+
+
+
+create table ADJProizvodjac
+(
+  idProizvodjac int auto_increment
+    primary key,
+  ime           varchar(45) null,
+  adresa        varchar(45) null
+);
+
+
+create table ADJTransakcija
+(
+  idTransakcija          int auto_increment
+    primary key,
+  kolicina               double not null,
+  ADJProizvod_idProizvod int    not null,
+  ADJKorisnik_idKorisnik int    not null,
+  ADJIzlog_idIzlog       int    not null,
+  constraint fk_ADJTransakcija_ADJIzlog1
+    foreign key (ADJIzlog_idIzlog) references ADJIzlog (idIzlog),
+  constraint fk_ADJTransakcija_ADJKorisinik1
+    foreign key (ADJKorisnik_idKorisnik) references ADJKorisnik (idKorisnik),
+  constraint fk_ADJTransakcija_ADJProizvod1
+    foreign key (ADJProizvod_idProizvod) references ADJProizvod (idProizvod)
+);
+
+create index fk_ADJTransakcija_ADJIzlog1_idx
+  on ADJTransakcija (ADJIzlog_idIzlog);
+
+create index fk_ADJTransakcija_ADJKorisinik1_idx
+  on ADJTransakcija (ADJKorisnik_idKorisnik);
+
+create index fk_ADJTransakcija_ADJProizvod1_idx
+  on ADJTransakcija (ADJProizvod_idProizvod);
+
+
+
+create table ADJUloga
+(
+  idUloga int auto_increment
+    primary key,
+  ime     varchar(45) null
+);
+
